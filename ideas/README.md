@@ -2,7 +2,7 @@
 
 このフォルダは、検討が進んだアイデアを Markdown で整理する場所です。
 
-思いつきの段階では、まず [GitHub Issues](../issues) に記録してください。必要に応じて [アイデア詳細テンプレート](../templates/app-idea.md) をコピーし、`ideas/<idea-slug>.md` として保存します。
+思いつきの段階では、まず [GitHub Issues](https://github.com/iwasaki-hub/idea-garden-/issues) に記録してください。必要に応じて [アイデア詳細テンプレート](../templates/app-idea.md) をコピーし、`ideas/<idea-slug>.md` として保存します。
 
 ## 管理のルール
 
