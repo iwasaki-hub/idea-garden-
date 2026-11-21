@@ -1,0 +1,62 @@
+name: "🌱 アプリアイデアを記録"
+description: "新しいアプリのひらめきを気軽にメモします"
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        思いついたことを、短くても大丈夫なので残しましょう。
+        **「アイデアの概要」だけ必須**です。ほかの項目は後から追加できます。
+        このリポジトリは公開されています。秘密情報や個人情報は書かないでください。
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "アイデアの概要"
+      description: "どんなアプリ？ 1〜2行でもOKです。"
+      placeholder: "例：その日の気分をひと言で記録し、あとから振り返れるアプリ"
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "きっかけ・解決したいこと"
+      description: "なぜ作りたいと思った？ 誰のどんな困りごとを解決する？"
+      placeholder: "思いついた背景を自由にメモ"
+    validations:
+      required: false
+
+  - type: textarea
+    id: features
+    attributes:
+      label: "思いついている機能"
+      description: "箇条書きでOK。まだ決まっていなくても問題ありません。"
+      placeholder: |
+        - 最初に欲しい機能
+        - いつか追加したい機能
+    validations:
+      required: false
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: "ステージ"
+      description: "現在の検討状況"
+      options:
+        - "🌱 Seed（思いつき）"
+        - "🌿 Exploring（検討中）"
+        - "🪴 Planned（開発候補）"
+        - "🚀 Building（開発中）"
+        - "🌸 Shipped（公開済み）"
+      default: 0
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "参考リンク・その他メモ"
+      description: "参考サイト、画面のイメージ、次の一歩など"
+    validations:
+      required: false
